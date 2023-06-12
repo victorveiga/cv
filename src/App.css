@@ -1,0 +1,94 @@
+body {
+  color: #333;
+  background-color: #FFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cv-main-container {
+  padding: 5%;
+}
+
+.cv-name {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cv-header-info {
+  display: flex;
+  gap: 30px;
+}
+
+.cv-info {
+  display: flex;
+  gap: 40px;
+}
+
+.cv-info-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cv-info-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-links a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.gray-bg {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,.1);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+.mas-container .subtitle {
+  background-color: #333;
+  color: #FFF;
+  width: fit-content;
+}
+
+.dotted-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.dots {
+  border-bottom: 2px dotted #333;
+  flex-grow: 1;
+  height: 15px;
+}
+
+.download-pdf-btn {
+  margin: 0 5% 20px 5%
+}
+
+hr {
+  margin: 20px 0;
+}
